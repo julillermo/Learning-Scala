@@ -180,6 +180,7 @@ class Pizza (
 
 - Like in TypeScript, return types are optional
 - _It seems to me that the following examples are FUNCTIONS, in general, but are METHODS once within the context of a Class_
+  - _No, Scala generally refers to functions as methods_
 
 ```scala
 def sum(a: Int, b: Int): Int = a + b

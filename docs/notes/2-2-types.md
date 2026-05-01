@@ -3,7 +3,7 @@
 ## The Type is Optional
 
 - Like TypeScript, you aren't required to annotate with types
-- Like TypeScript, you can also help the type checker to being explict with what type something is. Helpful to avoid the compiler making the wrong assumption on types.
+- Like TypeScript, you can also help the type checker by being explict with what type something is. Helpful to avoid the compiler making the wrong assumption on types.
 
 ## Built-in Types
 
@@ -35,7 +35,7 @@ val c: Char = 'a'
 
 ```scala
 val firstName = "John"
-val mi = 'C'
+val mi = 'C' // char
 val lastName = "Doe"
 
 val name = firstName + " " + mi + " " + lastName
@@ -55,6 +55,8 @@ println(s"1+1 = ${1+1}")
 val speech = """Four score and
               seven years ago
               our fathers ..."""
+
+// Below makes sure to the outputted text to the left
 val speech2 = """Four score and
               |seven years ago
               |our fathers ...""".stripMargin
