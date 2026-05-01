@@ -1,5 +1,3 @@
-package preliminaries
-
 import scala.io.StdIn.readLine
 
 object HelloInteractive extends App {
