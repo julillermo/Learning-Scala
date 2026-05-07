@@ -82,3 +82,5 @@ class HelloTests extends anyFunSuite {
   }
 }
 ```
+
+- A Behavrior Driven Development philosophy was discussed after this chapter, but I skipped it
