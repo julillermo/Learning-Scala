@@ -73,6 +73,7 @@ object Person {
 
 - _"... adding an `unapply` method lets you de-construct object instances"_
 - The `unapply` method in scala is like an _extractor_ method.
+- As desribed by AI chat: _Think of it as an a way to turn objects into parts that pattern match can read_
 
 ```scala
 class Person(var name: String, var age: Int)
